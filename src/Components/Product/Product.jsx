@@ -6,9 +6,9 @@ const Product = (props) => {
     const { strMealThumb, strMeal, idMeal, strCategory, strArea } = props.meal;
     return (
 
-        <div className='shadow rounded w-30'>
-            <div className='mx-4 my-4'>
-                <img className='img-thumbnail w-50' src={strMealThumb} />
+        <div className='shadow rounded w-40 p-2'>
+            <div className='p-4'>
+                <img className='img-thumbnail w-full rounded' src={strMealThumb} />
                 <h4>Name: {strMeal}</h4>
                 <p>ID: {idMeal}</p>
                 <p>Category: {strCategory}</p>
